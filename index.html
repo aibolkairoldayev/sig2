@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIG2</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Merriweather:wght@400;700&family=Yeseva+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="header__top">
             <div class="container">
                 <a href="" class="logo">
@@ -33,6 +36,11 @@
                         </li>
                     </ul>
                 </div>
+                <div class="langs">
+                    <p>Рус</p>
+                    <hr>
+                    <a href="/kk">Қаз</a>
+                </div>  
             </div>
         </div>
         <hr>
@@ -79,6 +87,7 @@
         </div>
     </header>
 
+   <main class="main">
     <section class="banner">
         <div class="banner__slider">
             <div class="banner__item">
@@ -88,48 +97,55 @@
                 <img src="assets/img/banner2.png" alt="banner">
             </div>
         </div>
-        <div class="container">
-            <div class="banner__info">
-                <b>SARZHAN </b>
-                <span>INVEST GROUP</span>
-                <p>
-                    Мы определяем ценность - профессионально, объективно, своевременно
-                </p>
+        <div class="banner__content">
+            <div class="container">
+                <div class="banner__info">
+                    <b>SARZHAN </b>
+                    <span>INVEST GROUP</span>
+                    <p>
+                        Мы определяем ценность - профессионально, объективно, своевременно
+                    </p>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="about">
-        <div class="about__title main-title">О НАС</div>
-        <div class="about__content">
-            <div class="about__left">
-                Mirar vyrade ifall dora. Adosm ybel. Jök infrartad. Nysk. Anagyn migäl respektive treskap. Sade pir intraska. 
-                Kon dektig. Ejör fan. Agnostiitet dede. Homonende tegt, trejynas. Autorat spekode vingar. Pisat tos eurotick. 
-                Milassade jörade som ner. Somiligen rer ultrapill. Semigisk. Vahysm suligt. Autobyling baska men eusaning. Uktig mifaling åvis. 
-                Epick ossade pobel. Nys byliga eusk. Tist resk kontrara. Hosade jöbir las. Persofi egosadade gabäligt. Nijöning ose analigen. 
-                Nivis redossade, huruvida bebav. Rösm kirat. Emtes tol. Prende räss i labelt. Plas tyda, antropofiering. Heteroism anan. 
-                Dejöst nipinat. Bionenera. 
-            </div>
-            <div class="about__right">
-                <div class="about__item">
-                    <b>241</b>
-                    <span>успешных проектов</span>
-                </div>
-                <div class="about__item">
-                    <b>100%</b>
-                    <span>Довольных клиентов</span>
-                </div>
-                <div class="about__item">
-                    <b>16</b>
-                    <span>Лет работы</span>
-                </div>
-                <div class="about__item">
-                    <b>30</b>
-                    <span>Профессионалов в команде</span>
-                </div>
-            </div>
+        <div class="about__bg">
+            <img src="assets/img/about-bg.png" alt="bg">
         </div>
-        <a class="about__btn btn-white" href="/about">Подробнее</a>
+        <div class="container">
+            <div class="about__title main-title">О НАС</div>
+            <div class="about__content">
+                <div class="about__left">
+                    Mirar vyrade ifall dora. Adosm ybel. Jök infrartad. Nysk. Anagyn migäl respektive treskap. Sade pir intraska. 
+                    Kon dektig. Ejör fan. Agnostiitet dede. Homonende tegt, trejynas. Autorat spekode vingar. Pisat tos eurotick. 
+                    Milassade jörade som ner. Somiligen rer ultrapill. Semigisk. Vahysm suligt. Autobyling baska men eusaning. Uktig mifaling åvis. 
+                    Epick ossade pobel. Nys byliga eusk. Tist resk kontrara. Hosade jöbir las. Persofi egosadade gabäligt. Nijöning ose analigen. 
+                    Nivis redossade, huruvida bebav. Rösm kirat. Emtes tol. Prende räss i labelt. Plas tyda, antropofiering. Heteroism anan. 
+                    Dejöst nipinat. Bionenera. 
+                </div>
+                <div class="about__right">
+                    <div class="about__item">
+                        <b>241</b>
+                        <span>успешных проектов</span>
+                    </div>
+                    <div class="about__item">
+                        <b>100%</b>
+                        <span>Довольных клиентов</span>
+                    </div>
+                    <div class="about__item">
+                        <b>16</b>
+                        <span>Лет работы</span>
+                    </div>
+                    <div class="about__item">
+                        <b>30</b>
+                        <span>Профессионалов в команде</span>
+                    </div>
+                </div>
+            </div>
+            <a class="about__btn btn-white" href="/about">Подробнее</a>
+        </div>
     </section>
 
     <section class="services">
@@ -139,28 +155,34 @@
         <div class="services__slider">
             <div class="services__item">
                 <img src="assets/img/services1.png" alt="service">
-            </div>
-            <div class="container">
-                <div class="services__info">
-                    <b>Строительная экспертиза</b>
-                    <a href="">Подробнее</a>
+                <div class="services__content">
+                    <div class="container">
+                        <div class="services__info">
+                            <b>Строительная экспертиза</b>
+                            <a href="">Подробнее</a>
+                        </div>
+                    </div>
                 </div>
             </div>
+            
             <div class="services__item">
                 <img src="assets/img/services1.png" alt="service">
-            </div>
-            <div class="container">
-                <div class="services__info">
-                    <b>Строительная экспертиза</b>
-                    <a href="">Подробнее</a>
+                <div class="services__content">
+                    <div class="container">
+                        <div class="services__info">
+                            <b>Строительная экспертиза</b>
+                            <a href="">Подробнее</a>
+                        </div>
+                    </div>
                 </div>
             </div>
+            
         </div>
     </section>
 
     <section class="team">
         <div class="team__bg">
-            <img src="" alt="">
+            <img src="assets/img/team-bg.png" alt="bg">
         </div>
         <div class="container">
             <div class="team__title main-title">Нам доверяют</div>
@@ -290,6 +312,7 @@
         </div>
         
     </section>
+   </main>
     <footer class="footer">
         <hr>
         <div class="container">
@@ -354,6 +377,9 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer>    
+    <script src="assets/js/jquery-3.6.3.min.js" defer></script>
+    <script src="assets/js/slick.min.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
 </body>
 </html>
