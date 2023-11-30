@@ -19,8 +19,8 @@ if($('.services__slider').length) {
     // arrows: false,
     slidesToShow: 1,
     cssEase: 'linear',
-    prevArrow: '<div class="arrowLeft"><svg xmlns="http://www.w3.org/2000/svg" width="63" height="62" viewBox="0 0 63 62" fill="none"><rect x="0.5" width="62" height="62" rx="31" fill="white"/><path d="M23.5 15L39.5 31L23.5 47" stroke="#0033A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>',
-    nextArrow: '<div class="arrowRight"><svg xmlns="http://www.w3.org/2000/svg" width="63" height="62" viewBox="0 0 63 62" fill="none"><rect x="62.5" y="62" width="62" height="62" rx="31" transform="rotate(-180 62.5 62)" fill="white"/><path d="M39.5 47L23.5 31L39.5 15" stroke="#0033A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>',
+    prevArrow: '<div class="arrowLeft"><svg xmlns="http://www.w3.org/2000/svg" width="63" height="62" viewBox="0 0 63 62" fill="none"><rect x="0.5" width="62" height="62" rx="31" fill="#F6CB61"/><path d="M23.5 15L39.5 31L23.5 47" stroke="#0033A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>',
+    nextArrow: '<div class="arrowRight"><svg xmlns="http://www.w3.org/2000/svg" width="63" height="62" viewBox="0 0 63 62" fill="none"><rect x="62.5" y="62" width="62" height="62" rx="31" transform="rotate(-180 62.5 62)" fill="#F6CB61"/><path d="M39.5 47L23.5 31L39.5 15" stroke="#0033A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>',
   });
 }
 
@@ -54,8 +54,8 @@ if($('.team__slider2').length) {
     dots: false,
     infinite: true,
     slidesToShow: 3,
-    prevArrow: '<div class="arrowLeft"><svg xmlns="http://www.w3.org/2000/svg" width="63" height="62" viewBox="0 0 63 62" fill="none"><rect x="62.5" y="62" width="62" height="62" rx="31" transform="rotate(-180 62.5 62)" fill="white"/><path d="M39.5 47L23.5 31L39.5 15" stroke="#0033A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>',
-    nextArrow: '<div class="arrowRight"><svg xmlns="http://www.w3.org/2000/svg" width="63" height="62" viewBox="0 0 63 62" fill="none"><rect x="0.5" width="62" height="62" rx="31" fill="white"/><path d="M23.5 15L39.5 31L23.5 47" stroke="#0033A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>',
+    prevArrow: '<div class="arrowLeft"><svg xmlns="http://www.w3.org/2000/svg" width="63" height="62" viewBox="0 0 63 62" fill="none"><rect x="62.5" y="62" width="62" height="62" rx="31" transform="rotate(-180 62.5 62)" fill="#F6CB61"/><path d="M39.5 47L23.5 31L39.5 15" stroke="#0033A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>',
+    nextArrow: '<div class="arrowRight"><svg xmlns="http://www.w3.org/2000/svg" width="63" height="62" viewBox="0 0 63 62" fill="none"><rect x="0.5" width="62" height="62" rx="31" fill="#F6CB61"/><path d="M23.5 15L39.5 31L23.5 47" stroke="#0033A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>',
   });
 }
 
