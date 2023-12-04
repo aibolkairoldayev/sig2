@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,12 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Merriweather:wght@400;700&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Merriweather:wght@400;700&family=Yeseva+One&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
     <header class="header">
         <div class="header__top">
@@ -17,30 +21,37 @@
                 <a href="" class="logo">
                     <img src="assets/img/icons/logo.svg" alt="logo">
                 </a>
-                <div class="header__nav">
-                    <ul>
-                        <li>
-                            <a href="/about">О нас</a>
-                        </li>
-                        <li>
-                            <a href="/services">Услуги</a>
-                        </li>
-                        <li>
-                            <a href="/trustus">Нам доверяют</a>
-                        </li>                        
-                        <li>
-                            <a href="/news">Публикации</a>
-                        </li>
-                        <li>
-                            <a href="/contacts">Контакты</a>
-                        </li>
-                    </ul>
+                <div class="header__menu--desktop">
+                    <div class="header__nav">
+                        <ul>
+                            <li>
+                                <a href="/about">О нас</a>
+                            </li>
+                            <li>
+                                <a href="/services" id="services">Услуги</a>
+                            </li>
+                            <li>
+                                <a href="/trustus">Нам доверяют</a>
+                            </li>
+                            <li>
+                                <a href="/news">Публикации</a>
+                            </li>
+                            <li>
+                                <a href="/contacts">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="langs">
                     <p>Рус</p>
                     <hr>
                     <a href="/kk">Қаз</a>
-                </div>  
+                </div>
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </div>
         <hr>
@@ -51,8 +62,9 @@
                         Услуги, которые мы можем вам предоставить
                     </b>
                     <p>
-                        SARZHAN INVEST GROUP стремится создавать долгосрочную ценность для всех заинтересованных сторон, с помощью 
-                        услуг и решений, основанных на аналитических данных и новейших технологиях. 
+                        SARZHAN INVEST GROUP стремится создавать долгосрочную ценность для всех заинтересованных сторон,
+                        с помощью
+                        услуг и решений, основанных на аналитических данных и новейших технологиях.
                     </p>
                 </div>
                 <div class="header__right">
@@ -85,235 +97,343 @@
                 </div>
             </div>
         </div>
+        <div class="header__mobile">
+            <div class="header__mobile--wrapper"></div>
+            <div class="header__mobile--content">
+                <div class="header__nav">
+                    <ul>
+                        <li>
+                            <a href="/about">О нас</a>
+                        </li>
+                        <li>
+                            <a href="/services" id="services">Услуги</a>
+                        </li>
+                        <li>
+                            <a href="/trustus">Нам доверяют</a>
+                        </li>
+                        <li>
+                            <a href="/news">Публикации</a>
+                        </li>
+                        <li>
+                            <a href="/contacts">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </header>
 
-   <main class="main">
-    <section class="banner">
-        <div class="banner__slider">
-            <div class="banner__item">
-                <img src="assets/img/banner1.png" alt="banner">
+    <main class="main">
+
+        <section class="banner">
+            <div class="banner__slider">
+                <div class="banner__item">
+                    <img src="assets/img/banner1.png" alt="banner">
+                </div>
+                <div class="banner__item">
+                    <img src="assets/img/banner2.png" alt="banner">
+                </div>
+                <div class="banner__item">
+                    <img src="assets/img/banner3.png" alt="banner">
+                </div>
             </div>
-            <div class="banner__item">
-                <img src="assets/img/banner2.png" alt="banner">
+            <div class="banner__content">
+                <div class="container">
+                    <div class="banner__info">
+                        <b>SARZHAN </b>
+                        <span>INVEST GROUP</span>
+                        <p>
+                            Мы определяем ценность - профессионально, объективно, своевременно
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="banner__content">
+        </section>
+
+        <section class="about">
+            <div class="about__bg">
+                <img src="assets/img/about-bg.png" alt="bg">
+            </div>
             <div class="container">
-                <div class="banner__info">
-                    <b>SARZHAN </b>
-                    <span>INVEST GROUP</span>
-                    <p>
-                        Мы определяем ценность - профессионально, объективно, своевременно
-                    </p>
+                <div class="about__title main-title">О НАС</div>
+                <div class="about__content">
+                    ТОО «Sarzhan Invest Group» провела реструктуризацию, направленную на решение стратегических
+                    задач, на поддержание эффективности функционирования предприятия, повышением
+                    конкурентоспособности и развитие компании. ТОО «Sarzhan Invest Group» может предложить Вам
+                    самый широкий спектр услуг на рынке Казахстана в сфере оценки имущества и интеллектуальной
+                    собственности. Мы всегда учитываем потребности партнеров и готовы работать над новыми проектами
+                    для расширения бизнес возможностей. В своей работе мы, прежде всего, ценим качество и
+                    профессионализм, что позволяет нам оставаться востребованными среди клиентов с самыми разными
+                    потребностями. <br><br>
+                    Наши возможности. <br>
+                    ТОО «Sarzhan Invest Group» оказывает услуги в сфере оценки имущества и интеллектуальной
+                    собственности на базе профессионального и справедливого суждения о стоимости. Мы заинтересованы
+                    в долгосрочном взаимодействии и готовы предоставить льготные условия взаиморасчетов по факту
+                    оказания услуг в кратчайшие сроки.
+                </div>
+                <a class="about__btn btn-yellow" href="/about">Подробнее</a>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="container">
+                <div class="services__title main-title">УСЛУГИ</div>
+            </div>
+            <div class="services__slider">
+                <div class="services__item">
+                    <img src="assets/img/services1.png" alt="service">
+                    <div class="services__content">
+                        <div class="container">
+                            <div class="services__info">
+                                <b>Строительная экспертиза</b>
+                                <a href="">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <img src="assets/img/services1.png" alt="service">
+                    <div class="services__content">
+                        <div class="container">
+                            <div class="services__info">
+                                <b>Строительная экспертиза2</b>
+                                <a href="">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="team">
+            <div class="team__bg">
+                <img src="assets/img/team-bg.png" alt="bg">
+            </div>
+            <div class="container">
+                <div class="team__title main-title">Нам доверяют</div>
+            </div>
+            <div class="team__slider1">
+                <div class="team__item1">
+                    <img src="assets/img/part1.png" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part2.png" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part3.png" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part4.png" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part5.jpg" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part6.png" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part8.png" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part9.png" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part10.png" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part11.jpg" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part12.png" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part13.png" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part14.png" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part15.png" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part16.png" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part17.png" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part18.jpg" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part19.jpg" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part20.png" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part21.png" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part22.jpg" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part23.jpg" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part24.jpg" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part25.jpg" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part26.jpg" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part27.png" alt="icon">
+                </div>
+                <div class="team__item1">
+                    <img src="assets/img/part28.jpg" alt="icon">
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="team__title2 main-title">КОМАНДА</div>
+                <div class="team__slider2">
+                    <div class="team__item2">
+                        <img src="assets/img/team1.jpg" alt="person">
+                        <b>Имя Фамилия</b>
+                        <p>Lörem ipsum vyjebipinar dissa mipås i triktiga. Autoheten are. Telegt dir eftersom diskapet.
+                        </p>
+                    </div>
+                    <div class="team__item2">
+                        <img src="assets/img/team2.jpg" alt="person">
+                        <b>Имя Фамилия</b>
+                        <p>Lörem ipsum vyjebipinar dissa mipås i triktiga. Autoheten are. Telegt dir eftersom diskapet.
+                        </p>
+                    </div>
+                    <div class="team__item2">
+                        <img src="assets/img/team3.jpg" alt="person">
+                        <b>Имя Фамилия</b>
+                        <p>Lörem ipsum vyjebipinar dissa mipås i triktiga. Autoheten are. Telegt dir eftersom diskapet.
+                        </p>
+                    </div>
+                    <div class="team__item2">
+                        <img src="assets/img/team4.jpg" alt="person">
+                        <b>Имя Фамилия</b>
+                        <p>Lörem ipsum vyjebipinar dissa mipås i triktiga. Autoheten are. Telegt dir eftersom diskapet.
+                        </p>
+                    </div>
+                    <div class="team__item2">
+                        <img src="assets/img/team5.jpg" alt="person">
+                        <b>Имя Фамилия</b>
+                        <p>Lörem ipsum vyjebipinar dissa mipås i triktiga. Autoheten are. Telegt dir eftersom diskapet.
+                        </p>
+                    </div>
+                    <div class="team__item2">
+                        <img src="assets/img/team6.jpg" alt="person">
+                        <b>Имя Фамилия</b>
+                        <p>Lörem ipsum vyjebipinar dissa mipås i triktiga. Autoheten are. Telegt dir eftersom diskapet.
+                        </p>
+                    </div>
+                    <div class="team__item2">
+                        <img src="assets/img/team7.jpg" alt="person">
+                        <b>Имя Фамилия</b>
+                        <p>Lörem ipsum vyjebipinar dissa mipås i triktiga. Autoheten are. Telegt dir eftersom diskapet.
+                        </p>
+                    </div>
+
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="about">
-        <div class="about__bg">
-            <img src="assets/img/about-bg.png" alt="bg">
-        </div>
-        <div class="container">
-            <div class="about__title main-title">О НАС</div>
-            <div class="about__content">
-                Lörem ipsum fåd vid auton även om böbelt, därför att etnopatologi, fast farat ekosion: visperar. Derade spedebel innan vuvuns deledes 
-                för att tek oliga, kropinat att krofyr. Sining anasade, malyn, fät. Mide vunas såväl som dera liksom plapuren, kontragar. Oskapet lavura 
-                tisamma, prefyr sulogi. Prelingar anavinat sosk fågen. Regen sating, berade för att maktig, lyling konkemi benade olyr. Laling paraligt 
-                seskade i besertad, parangen, plan. Mande pöfunde röde: premuning spere huvinera kvasidev dysmodern täsont egovis. Vuligt marer rediren, 
-                dialav poson, soson kror: faning. 
-                Dibel fytt än niktig. Tifarat sav dede faska teosion bot epihänesm dent, paratåbel. Od mikrosade, terer hemipöra i hexas: dorade prede 
-                antirade, plad. Fudade krolingar därför att metadiktisk inklusive prenar: nydiligt tifynas. Lyröbel poska om mikrongen med bere i orende 
-                stenolyvis i prehet son om bere manera. Operapatologi ande: rehänar fukaren. Sisiröl gösm, ura därför att dolingar fanade att gatrening 
-                innan tävis progötrefalig serat hexara. Pit diska. Jyrelynera full i pseudotrektig, i primaform. Kar parang. 
-                Besov teletik prebögisk och far supras megavis. Autor hypobosm såfygisk om krolören kana i lyskap, etnopatologi att ben och son sere. Sast 
-                plana i komisade teredat. Nyras sologi. Ortad. Polytopi ossade men gön bodonde rerar fadade i predat tretyspel ase. Röseska filofiering. 
-                Gigt musis nenyktig angen, hypoted tidyligt i depos bek. Dekas diren visåvis och megare, lyning cynnomi. Homonitiskapet anade.                 
+        <section class="consult">
+            <div class="consult__bg">
+                <img src="assets/img/consult__bg.png" alt="">
             </div>
-            <a class="about__btn btn-yellow" href="/about">Подробнее</a>
-        </div>
-    </section>
+            <div class="container">
+                <div class="consult__title">
+                    С 2013 года, и на сегодняшний день является одной из динамично развивающихся и лидирующей
+                    Казахстанской компанией на рынке консалтинговых услуг
+                </div>
+                <div class="consult__content">
+                    <div class="consult__number">
+                        <b>11</b>
+                        <p>Лет мы работаем для вас</p>
+                    </div>
+                    <div class="consult__form">
+                        <form action="">
+                            <input type="text" placeholder="Ваше имя">
+                            <input type="email" placeholder="Ваш email">
+                            <input type="tel" placeholder="+7 (707) 777-77-77">
+                            <button class="btn-yellow" type="submit">Отправить заявку</button>
+                        </form>
+                    </div>
+                </div>
 
-    <section class="services">
-        <div class="container">
-            <div class="services__title main-title">УСЛУГИ</div>
-        </div>
-        <div class="services__slider">
-            <div class="services__item">
-                <img src="assets/img/services1.png" alt="service">
-                <div class="services__content">
-                    <div class="container">
-                        <div class="services__info">
-                            <b>Строительная экспертиза</b>
-                            <a href="">Подробнее</a>
+            </div>
+        </section>
+
+        <section class="materials">
+            <div class="container">
+                <div class="materials__title main-title">Актуальные материалы</div>
+                <div class="materials__content">
+                    <div class="materials__item">
+                        <img src="assets/img/mat1.png" alt="mat">
+                        <div class="materials__info">
+                            <p>Lörem ipsum diling homor infrar om än emtos preren... </p>
+                            <a href="">Читать далее</a>
+                        </div>
+                    </div>
+                    <div class="materials__item">
+                        <img src="assets/img/mat1.png" alt="mat">
+                        <div class="materials__info">
+                            <p>Lörem ipsum diling homor infrar om än emtos preren... </p>
+                            <a href="">Читать далее</a>
+                        </div>
+                    </div>
+                    <div class="materials__item">
+                        <img src="assets/img/mat1.png" alt="mat">
+                        <div class="materials__info">
+                            <p>Lörem ipsum diling homor infrar om än emtos preren... </p>
+                            <a href="">Читать далее</a>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            <div class="services__item">
-                <img src="assets/img/services1.png" alt="service">
-                <div class="services__content">
-                    <div class="container">
-                        <div class="services__info">
-                            <b>Строительная экспертиза2</b>
-                            <a href="">Подробнее</a>
-                        </div>
+        </section>
+
+        <section class="contacts">
+            <div class="contacts__bg">
+                <img src="assets/img/contacts-bg.png" alt="bg">
+            </div>
+            <div class="container">
+                <div class="contacts__info">
+                    <div class="contacts__title">Контакты</div>
+                    <a href="77071320798" class="contacts__phone">+7 (707) 132 07 98</a>
+                    <a href="mailto:someemail@mail.com" class="contacts__phone">someemail@mail.com</a>
+                    <p>г.Алматы, ул.Муратбаева, 211, 13</p>
+                    <p>г.Алматы, ул.Шагабутдинова, 125, 37</p>
+                    <p>С понедельника по пятницу
+                        (Встреча на выходных? Не проблема)</p>
+                    <p>09:00 - 18.00 (задержимся если потребуется)</p>
+                    <div class="contacts__socials">
+                        <a href="">
+                            <img src="assets/img/icons/fb.svg" alt="icon">
+                        </a>
+                        <a href="">
+                            <img src="assets/img/icons/whtsp.svg" alt="icon">
+                        </a>
+                        <a href="">
+                            <img src="assets/img/icons/insta.svg" alt="icon">
+                        </a>
                     </div>
                 </div>
             </div>
-            
-        </div>
-    </section>
 
-    <section class="team">
-        <div class="team__bg">
-            <img src="assets/img/team-bg.png" alt="bg">
-        </div>
-        <div class="container">
-            <div class="team__title main-title">Нам доверяют</div>
-        </div>
-        <div class="team__slider1">
-            <div class="team__item1">
-                <img src="assets/img/icons/trust1.svg" alt="icon">
-            </div>
-            <div class="team__item1">
-                <img src="assets/img/icons/trust2.svg" alt="icon">
-            </div>
-            <div class="team__item1">
-                <img src="assets/img/icons/trust3.svg" alt="icon">
-            </div>
-            <div class="team__item1">
-                <img src="assets/img/icons/trust4.svg" alt="icon">
-            </div>
-            <div class="team__item1">
-                <img src="assets/img/icons/trust5.svg" alt="icon">
-            </div>
-            <div class="team__item1">
-                <img src="assets/img/icons/trust6.svg" alt="icon">
-            </div>
-            <div class="team__item1">
-                <img src="assets/img/icons/trust7.svg" alt="icon">
-            </div>
-            <div class="team__item1">
-                <img src="assets/img/icons/trust8.svg" alt="icon">
-            </div>
-            <div class="team__item1">
-                <img src="assets/img/icons/trust9.svg" alt="icon">
-            </div>
-            <div class="team__item1">
-                <img src="assets/img/icons/trust10.svg" alt="icon">
-            </div>
-        </div>
-        <div class="container">
-            <div class="team__title2 main-title">КОМАНДА</div>
-            <div class="team__slider2">
-                <div class="team__item2">
-                    <img src="assets/img/team1.png" alt="person">
-                    <b>Имя Фамилия</b>
-                    <p>Lörem ipsum vyjebipinar dissa mipås i triktiga. Autoheten are. Telegt dir eftersom diskapet. </p>
-                </div>
-                <div class="team__item2">
-                    <img src="assets/img/team1.png" alt="person">
-                    <b>Имя Фамилия</b>
-                    <p>Lörem ipsum vyjebipinar dissa mipås i triktiga. Autoheten are. Telegt dir eftersom diskapet. </p>
-                </div>
-                <div class="team__item2">
-                    <img src="assets/img/team1.png" alt="person">
-                    <b>Имя Фамилия</b>
-                    <p>Lörem ipsum vyjebipinar dissa mipås i triktiga. Autoheten are. Telegt dir eftersom diskapet. </p>
-                </div>
-                <div class="team__item2">
-                    <img src="assets/img/team1.png" alt="person">
-                    <b>Имя Фамилия</b>
-                    <p>Lörem ipsum vyjebipinar dissa mipås i triktiga. Autoheten are. Telegt dir eftersom diskapet. </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="consult">
-        <div class="consult__bg">
-            <img src="assets/img/consult__bg.png" alt="">
-        </div>
-        <div class="container">
-            <div class="consult__title">
-                С 2013 года, и на сегодняшний день является одной из динамично развивающихся и лидирующей Казахстанской компанией на рынке консалтинговых услуг
-            </div>
-            <div class="consult__content">
-                <div class="consult__number">
-                    <b>11</b>
-                    <p>Лет мы работаем для вас</p>
-                </div>
-                <div class="consult__form">
-                    <form action="">
-                        <input type="text" placeholder="Ваше имя">
-                        <input type="email" placeholder="Ваш email">
-                        <input type="tel" placeholder="+7 (707) 777-77-77">
-                        <button class="btn-yellow" type="submit">Отправить заявку</button>
-                    </form>
-                </div>
-            </div>
-            
-        </div>
-    </section>
-
-    <section class="materials">
-        <div class="container">
-            <div class="materials__title main-title">Актуальные материалы</div>
-            <div class="materials__content">
-                <div class="materials__item">
-                    <img src="assets/img/mat1.png" alt="mat">
-                    <div class="materials__info">
-                        <p>Lörem ipsum diling homor infrar om än emtos preren... </p>
-                        <a href="">Читать далее</a>
-                    </div>
-                </div>
-                <div class="materials__item">
-                    <img src="assets/img/mat1.png" alt="mat">
-                    <div class="materials__info">
-                        <p>Lörem ipsum diling homor infrar om än emtos preren... </p>
-                        <a href="">Читать далее</a>
-                    </div>
-                </div>
-                <div class="materials__item">
-                    <img src="assets/img/mat1.png" alt="mat">
-                    <div class="materials__info">
-                        <p>Lörem ipsum diling homor infrar om än emtos preren... </p>
-                        <a href="">Читать далее</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="contacts">
-        <div class="contacts__bg">
-            <img src="assets/img/contacts-bg.png" alt="bg">
-        </div>
-        <div class="container">
-            <div class="contacts__info">
-                <div class="contacts__title">Контакты</div>
-                <a href="" class="contacts__phone">+7 (707) 777-77-77</a>
-                <a href="" class="contacts__phone">+7 (707) 777-77-77</a>
-                <a href="mailto:someemail@mail.com" class="contacts__phone">someemail@mail.com</a>
-                <p>Казахстан, г. Алматы, ул. Муратбаева, 211</p>
-                <div class="contacts__socials">
-                    <a href="">
-                        <img src="assets/img/icons/fb.svg" alt="icon">
-                    </a>
-                    <a href="">
-                        <img src="assets/img/icons/whtsp.svg" alt="icon">
-                    </a>
-                    <a href="">
-                        <img src="assets/img/icons/insta.svg" alt="icon">
-                    </a>
-                </div>
-            </div>
-        </div>
-        
-    </section>
-   </main>
+        </section>
+    </main>
     <footer class="footer">
         <hr>
         <div class="container">
@@ -373,14 +493,19 @@
                     </li>
                 </ul>
                 <div class="footer__bot">
+                    <div class="footer__mobile">
+                        <a href="">+7 (707) 777-77-77</a>
+                        <a href="">someemail@mail.com</a>
+                    </div>
                     <p>Все права защищены</p>
                     <a href="/policy">Политика конфиденциальности</a>
                 </div>
             </div>
         </div>
-    </footer>    
+    </footer>
     <script src="assets/js/jquery-3.6.3.min.js" defer></script>
     <script src="assets/js/slick.min.js" defer></script>
     <script src="assets/js/script.js" defer></script>
 </body>
+
 </html>
